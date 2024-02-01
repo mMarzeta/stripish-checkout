@@ -1,0 +1,23 @@
+@import './variables.scss';
+@import 'bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: $col-dark;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.col-main-dark {
+  background-color: $col-dark;
+  color: $text-light;
+  height: 100vh;
+}
+
+.col-main-light {
+  background-color: $col-light;
+  color: $text-dark;
+  height: 100vh;
+}

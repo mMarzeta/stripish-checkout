@@ -16,9 +16,5 @@ import Checkout from './components/Checkout.vue'
   </div>
 </template>
 <style scoped>
-.container-fluid {
-  background-color: #592d03;
-  border: 1px solid red;
-  height: 100vh;
-}
+
 </style>

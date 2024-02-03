@@ -1,15 +1,17 @@
 <script setup>
 import BackButton from './buttons/BackButton.vue'
 
+const companyName = 'Akademia Kodu'
+
 </script>
 
 <template>
   <div class="container">
     <div class="back-button">
-      <BackButton/>
+      <BackButton :company-name="companyName"/>
     </div>
     <br>
-    Pay ShipFast
+    Pay {{ companyName }}
     <br>
     <h1>
       US$199.00
@@ -19,12 +21,11 @@ import BackButton from './buttons/BackButton.vue'
 
 <style scoped>
 .container {
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-left: 90px;
 }
 
 .back-button {
-  margin-bottom: 20px;
-  margin-left: -20px;
+  margin-top: 55px;
+  margin-left: -30px;
 }
 </style>
